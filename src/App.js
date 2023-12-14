@@ -1,10 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import FormularioTicket from './components/FormularioTicket';
+import TablaTicket from './components/TablaTicket';
+
+
 
 function App() {
   return (
     <h1 className="text-3xl font-bold underline">
-      Hola me llamo Tailwind!
+      <FormularioTicket />
+      <TablaTicket />
     </h1>
   );
 }
